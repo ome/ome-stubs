@@ -6,17 +6,17 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>ome</groupId>
-    <artifactId>pom-bio-formats</artifactId>
+    <groupId>org.openmicroscopy</groupId>
+    <artifactId>ome-stubs</artifactId>
     <version>5.3.0-SNAPSHOT</version>
-    <relativePath>../../..</relativePath>
+    <relativePath>..</relativePath>
   </parent>
 
-  <artifactId>mipav-stubs</artifactId>
+  <artifactId>lwf-stubs</artifactId>
 
-  <name>MIPAV stubs</name>
-  <description>Stubs of MIPAV Java classes required to compile Bio-Formats' MIPAV plugin.</description>
-  <url>http://mipav.cit.nih.gov</url>
+  <name>Luratech LuraWave stubs</name>
+  <description>Stub of proprietary Java API to handle Luratech LWF compression. Required to compile Bio-Formats's support for Luratech LWF compression for the Opera Flex format.</description>
+  <url>http://www.luratech.com/</url>
   <inceptionYear>2010</inceptionYear>
 
   <licenses>
@@ -38,7 +38,7 @@
         <artifactId>license-maven-plugin</artifactId>
         <configuration>
           <licenseName>bsd_2</licenseName>
-          <projectName>MIPAV stub classes.</projectName>
+          <projectName>Luratech LWF library stub classes.</projectName>
         </configuration>
       </plugin>
     </plugins>
