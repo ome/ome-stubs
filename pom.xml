@@ -102,7 +102,7 @@
   <properties>
     <!-- If two artifacts on the classpath use two different versions of the
          same dependency, behavior is inconsistent at best, and often broken.
-         The following properties facilitate consistency of consistency
+         The following properties facilitate consistency of dependency
          versions between various projects in the SciJava software stack.
          When possible, we advise using the relevant groupId and version
          properties for your dependencies rather than hardcoding them. -->
