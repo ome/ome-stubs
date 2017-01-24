@@ -18,7 +18,10 @@
   <description>Stubs of MIPAV Java classes required to compile Bio-Formats' MIPAV plugin.</description>
   <url>http://mipav.cit.nih.gov</url>
   <inceptionYear>2010</inceptionYear>
-
+  <organization>
+    <name>Open Microscopy Environment</name>
+    <url>http://www.openmicroscopy.org/</url>
+  </organization>
   <licenses>
     <license>
       <name>Simplified BSD License</name>
@@ -43,36 +46,4 @@
       </plugin>
     </plugins>
   </build>
-
-  <developers>
-    <developer>
-      <id>melissa</id>
-      <name>Melissa Linkert</name>
-      <email>melissa@glencoesoftware.com</email>
-      <url>http://www.openmicroscopy.org/site/about/development-teams/glencoe-software</url>
-      <organization>Glencoe Software</organization>
-      <organizationUrl>http://glencoesoftware.com/</organizationUrl>
-      <roles>
-        <role>architect</role>
-        <role>developer</role>
-      </roles>
-      <timezone>-6</timezone>
-      <properties>
-        <picUrl>http://www.openmicroscopy.org/site/about/development-teams/glencoe-software/melissalinkert.png</picUrl>
-      </properties>
-    </developer>
-  </developers>
-
-  <!-- NB: for project parent, in case of partial checkout -->
-  <repositories>
-    <repository>
-      <id>ome.releases</id>
-      <url>http://artifacts.openmicroscopy.org/artifactory/ome.releases</url>
-    </repository>
-    <repository>
-      <id>ome.snapshots</id>
-      <url>http://artifacts.openmicroscopy.org/artifactory/ome.snapshots</url>
-    </repository>
-  </repositories>
-
 </project>
