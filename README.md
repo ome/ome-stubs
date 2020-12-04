@@ -1,6 +1,6 @@
-# OME stubs
+[![Build Status](https://github.com/ome/ome-stubs/workflows/Maven/badge.svg)](https://github.com/ome/ome-stubs/actions)
 
-[![Build Status](https://travis-ci.org/ome/ome-stubs.png)](http://travis-ci.org/ome/ome-stubs)
+# OME stubs
 
 Purpose
 -------
