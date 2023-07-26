@@ -70,7 +70,6 @@
   </prerequisites>
 
   <modules>
-    <module>lwf-stubs</module>
     <module>mipav-stubs</module>
   </modules>
 
