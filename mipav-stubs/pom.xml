@@ -16,11 +16,11 @@
 
   <name>MIPAV stubs</name>
   <description>Stubs of MIPAV Java classes required to compile Bio-Formats' MIPAV plugin.</description>
-  <url>http://mipav.cit.nih.gov</url>
+  <url>https://mipav.cit.nih.gov</url>
   <inceptionYear>2010</inceptionYear>
   <organization>
     <name>Open Microscopy Environment</name>
-    <url>http://www.openmicroscopy.org/</url>
+    <url>https://www.openmicroscopy.org/</url>
   </organization>
   <licenses>
     <license>

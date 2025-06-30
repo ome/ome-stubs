@@ -12,11 +12,11 @@
 
   <name>OME Stubs</name>
   <description>Components that are stubs of other external projects.</description>
-  <url>http://www.openmicroscopy.org/site/products/bio-formats</url>
+  <url>https://www.openmicroscopy.org/bio-formats</url>
   <inceptionYear>2005</inceptionYear>
   <organization>
     <name>Open Microscopy Environment</name>
-    <url>http://www.openmicroscopy.org/</url>
+    <url>https://www.openmicroscopy.org/</url>
   </organization>
   <licenses>
     <license>
@@ -29,7 +29,7 @@
   <developers>
     <developer>
       <name>The OME Team</name>
-      <email>ome-devel@lists.openmicroscopy.org.uk</email>
+      <url>https://www.openmicroscopy.org/teams/</url>
     </developer>
   </developers>
   <contributors>
@@ -48,23 +48,6 @@
     <contributor><name>Bjoern Thiel</name></contributor>
   </contributors>
 
-  <mailingLists>
-    <mailingList>
-      <name>OME-users</name>
-      <subscribe>http://lists.openmicroscopy.org.uk/mailman/listinfo/ome-users/</subscribe>
-      <unsubscribe>http://lists.openmicroscopy.org.uk/mailman/listinfo/ome-users/</unsubscribe>
-      <post>ome-users@lists.openmicroscopy.org.uk</post>
-      <archive>http://lists.openmicroscopy.org.uk/pipermail/ome-users/</archive>
-    </mailingList>
-    <mailingList>
-      <name>OME-devel</name>
-      <subscribe>http://lists.openmicroscopy.org.uk/mailman/listinfo/ome-devel/</subscribe>
-      <unsubscribe>http://lists.openmicroscopy.org.uk/mailman/listinfo/ome-devel/</unsubscribe>
-      <post>ome-devel@lists.openmicroscopy.org.uk</post>
-      <archive>http://lists.openmicroscopy.org.uk/pipermail/ome-devel/</archive>
-    </mailingList>
-  </mailingLists>
-
   <prerequisites>
     <maven>3.0.5</maven>
   </prerequisites>
@@ -77,15 +60,15 @@
     <connection>scm:git:https://github.com/ome/ome-stubs</connection>
     <developerConnection>scm:git:git@github.com:ome/ome-stubs</developerConnection>
     <tag>HEAD</tag>
-    <url>http://github.com/ome/ome-stubs</url>
+    <url>https://github.com/ome/ome-stubs</url>
   </scm>
   <issueManagement>
     <system>Trac</system>
-    <url>https://trac.openmicroscopy.org/ome</url>
+    <url>https://github.com/ome/ome-stubs/issues</url>
   </issueManagement>
   <ciManagement>
     <system>Jenkins</system>
-    <url>https://ci.openmicroscopy.org/</url>
+    <url>https://github.com/ome/ome-stubs/actions</url>
   </ciManagement>
 
   <properties>
