@@ -34,7 +34,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - name: Set up Java and deployment environemtn
+      - name: Set up Java and deployment environment
         uses: actions/setup-java@v6
         with:
           java-version: '21'
